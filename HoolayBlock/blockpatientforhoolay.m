@@ -7,7 +7,18 @@
 //
 
 #import "blockpatientforhoolay.h"
-
 @implementation blockpatientforhoolay
 
+-(void)parameter:(NSString *)string callback:(void (^)(NSString *))dict callvackerror:(void (^)(NSError *))errorsteing
+{
+    ([string isEqualToString:@"error"]) ? ([self dictsuccessful:dict]) : ([self dicterror:errorsteing]);
+}
+-(void)dictsuccessful:(void (^) (NSString *))strsuccessful
+{
+    strsuccessful(@"successful");
+}
+-(void)dicterror:(void (^)(NSError *))errorsteings
+{
+    errorsteings([NSError errorWithDomain:@"error" code:503 userInfo:nil]);
+}
 @end

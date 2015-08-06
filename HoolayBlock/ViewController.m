@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "Objection.h"
+#import "BlockPatient.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    JSObjectionInjector *injector = [JSObjection defaultInjector];
+    id<BlockPatient> vc = [injector getObject:@protocol(BlockPatient)];
+    [vc parameter:@"error" callback:^(NSString *str) {
+        NSLog(@"str = %@",str);
+    } callvackerror:^(NSError *error) {
+        NSLog(@"error = %@",error);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

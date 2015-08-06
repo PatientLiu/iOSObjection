@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BlockPatient.h"
 
-@interface blockpatientforhoolay : NSObject
+@interface blockpatientforhoolay : NSObject<BlockPatient>
+
 
 @end

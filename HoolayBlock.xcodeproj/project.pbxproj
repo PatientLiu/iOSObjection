@@ -14,6 +14,9 @@
 		9AE710BE1B71B51600199A86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE710BD1B71B51600199A86 /* Images.xcassets */; };
 		9AE710C11B71B51600199A86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE710BF1B71B51600199A86 /* LaunchScreen.xib */; };
 		9AE710CD1B71B51600199A86 /* HoolayBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE710CC1B71B51600199A86 /* HoolayBlockTests.m */; };
+		9AE710D91B71B73400199A86 /* blockpatientforhoolay.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE710D81B71B73400199A86 /* blockpatientforhoolay.m */; };
+		9AE710EE1B721A9F00199A86 /* Hoolayobjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE710ED1B721A9F00199A86 /* Hoolayobjection.m */; };
+		C43BE6B8F02F6F32628F7B42 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC48AC8FF0BD98923E00D929 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67053A8E66D9751D05EF85B8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7755CB7B53DFE9DE711A6231 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9AE710AD1B71B51600199A86 /* HoolayBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoolayBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE710B11B71B51600199A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AE710B21B71B51600199A86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,12 @@
 		9AE710C61B71B51600199A86 /* HoolayBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoolayBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE710CB1B71B51600199A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AE710CC1B71B51600199A86 /* HoolayBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoolayBlockTests.m; sourceTree = "<group>"; };
+		9AE710D61B71B54500199A86 /* BlockPatient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockPatient.h; sourceTree = "<group>"; };
+		9AE710D71B71B73400199A86 /* blockpatientforhoolay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blockpatientforhoolay.h; sourceTree = "<group>"; };
+		9AE710D81B71B73400199A86 /* blockpatientforhoolay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blockpatientforhoolay.m; sourceTree = "<group>"; };
+		9AE710EC1B721A9F00199A86 /* Hoolayobjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hoolayobjection.h; sourceTree = "<group>"; };
+		9AE710ED1B721A9F00199A86 /* Hoolayobjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hoolayobjection.m; sourceTree = "<group>"; };
+		EC48AC8FF0BD98923E00D929 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43BE6B8F02F6F32628F7B42 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +72,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B0EF93AF20EA01F5415CDF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7755CB7B53DFE9DE711A6231 /* Pods.debug.xcconfig */,
+				67053A8E66D9751D05EF85B8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9AE710A41B71B51600199A86 = {
 			isa = PBXGroup;
 			children = (
 				9AE710AF1B71B51600199A86 /* HoolayBlock */,
 				9AE710C91B71B51600199A86 /* HoolayBlockTests */,
 				9AE710AE1B71B51600199A86 /* Products */,
+				2B0EF93AF20EA01F5415CDF5 /* Pods */,
+				C3BF0D3064BEF1C595857342 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +108,11 @@
 				9AE710B51B71B51600199A86 /* AppDelegate.m */,
 				9AE710B71B71B51600199A86 /* ViewController.h */,
 				9AE710B81B71B51600199A86 /* ViewController.m */,
+				9AE710EC1B721A9F00199A86 /* Hoolayobjection.h */,
+				9AE710ED1B721A9F00199A86 /* Hoolayobjection.m */,
+				9AE710D61B71B54500199A86 /* BlockPatient.h */,
+				9AE710D71B71B73400199A86 /* blockpatientforhoolay.h */,
+				9AE710D81B71B73400199A86 /* blockpatientforhoolay.m */,
 				9AE710BA1B71B51600199A86 /* Main.storyboard */,
 				9AE710BD1B71B51600199A86 /* Images.xcassets */,
 				9AE710BF1B71B51600199A86 /* LaunchScreen.xib */,
@@ -119,6 +147,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C3BF0D3064BEF1C595857342 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC48AC8FF0BD98923E00D929 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AE710D01B71B51600199A86 /* Build configuration list for PBXNativeTarget "HoolayBlock" */;
 			buildPhases = (
+				F70FC656DA1DDBC5431EE944 /* Check Pods Manifest.lock */,
 				9AE710A91B71B51600199A86 /* Sources */,
 				9AE710AA1B71B51600199A86 /* Frameworks */,
 				9AE710AB1B71B51600199A86 /* Resources */,
+				A0F9CDB0554AED774B33BC0A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,12 +252,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A0F9CDB0554AED774B33BC0A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F70FC656DA1DDBC5431EE944 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9AE710A91B71B51600199A86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9AE710B91B71B51600199A86 /* ViewController.m in Sources */,
+				9AE710EE1B721A9F00199A86 /* Hoolayobjection.m in Sources */,
+				9AE710D91B71B73400199A86 /* blockpatientforhoolay.m in Sources */,
 				9AE710B61B71B51600199A86 /* AppDelegate.m in Sources */,
 				9AE710B31B71B51600199A86 /* main.m in Sources */,
 			);
@@ -347,6 +420,7 @@
 		};
 		9AE710D11B71B51600199A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7755CB7B53DFE9DE711A6231 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HoolayBlock/Info.plist;
@@ -357,6 +431,7 @@
 		};
 		9AE710D21B71B51600199A86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67053A8E66D9751D05EF85B8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HoolayBlock/Info.plist;
@@ -418,6 +493,7 @@
 				9AE710D21B71B51600199A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AE710D31B71B51600199A86 /* Build configuration list for PBXNativeTarget "HoolayBlockTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +502,7 @@
 				9AE710D51B71B51600199A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

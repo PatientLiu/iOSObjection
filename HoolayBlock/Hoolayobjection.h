@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Objection.h"
 
-@interface Hoolayobjection : NSObject
+@interface Hoolayobjection : JSObjectionModule
 
 @end

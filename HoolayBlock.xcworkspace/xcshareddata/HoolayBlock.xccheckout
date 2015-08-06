@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>67903646-329C-4173-9455-DF4D5CDE70D0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HoolayBlock</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9442B1D6442FDCA2BD255044EF7459C11F63F585</key>
+		<string>github.com:LiuHengChina/iOSObjection.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HoolayBlock.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9442B1D6442FDCA2BD255044EF7459C11F63F585</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:LiuHengChina/iOSObjection.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9442B1D6442FDCA2BD255044EF7459C11F63F585</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9442B1D6442FDCA2BD255044EF7459C11F63F585</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HoolayBlock</string>
+		</dict>
+	</array>
+</dict>
+</plist>
